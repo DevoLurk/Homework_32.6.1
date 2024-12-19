@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{440AAF3F-BC98-3D00-A33C-F9C226AB6367}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>homework_32.6.1</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CPPprojects\32.6.1_Homework\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">homework_32.6.1.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">homework_32.6.1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CPPprojects\32.6.1_Homework\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">homework_32.6.1.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">homework_32.6.1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CPPprojects\32.6.1_Homework\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">homework_32.6.1.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">homework_32.6.1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CPPprojects\32.6.1_Homework\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">homework_32.6.1.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">homework_32.6.1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\CPPprojects\32.6.1_Homework\include;C:\CPPprojects\32.6.1_Homework\googletest\include;C:\CPPprojects\32.6.1_Homework\googlmock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/CPPprojects/32.6.1_Homework/googletest/googletest/include" /external:I "C:/CPPprojects/32.6.1_Homework/googletest/googletest" /external:I "C:/CPPprojects/32.6.1_Homework/googletest/googlemock/include" /external:I "C:/CPPprojects/32.6.1_Homework/googletest/googlemock"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4355;4251;4250;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization></Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary></RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\CPPprojects\32.6.1_Homework\include;C:\CPPprojects\32.6.1_Homework\googletest\include;C:\CPPprojects\32.6.1_Homework\googlmock\include;C:\CPPprojects\32.6.1_Homework\googletest\googletest\include;C:\CPPprojects\32.6.1_Homework\googletest\googletest;C:\CPPprojects\32.6.1_Homework\googletest\googlemock\include;C:\CPPprojects\32.6.1_Homework\googletest\googlemock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\CPPprojects\32.6.1_Homework\include;C:\CPPprojects\32.6.1_Homework\googletest\include;C:\CPPprojects\32.6.1_Homework\googlmock\include;C:\CPPprojects\32.6.1_Homework\googletest\googletest\include;C:\CPPprojects\32.6.1_Homework\googletest\googletest;C:\CPPprojects\32.6.1_Homework\googletest\googlemock\include;C:\CPPprojects\32.6.1_Homework\googletest\googlemock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\all_for_cpp\cmake-3.31.2-windows-x86_64\bin\cmake.exe -D TEST_TARGET=homework_32.6.1 -D TEST_EXECUTABLE=C:/CPPprojects/32.6.1_Homework/bin/Debug/homework_32.6.1.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/CPPprojects/32.6.1_Homework/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=homework_32.6.1_TESTS -D CTEST_FILE=C:/CPPprojects/32.6.1_Homework/build/homework_32.6.1[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P C:/all_for_cpp/cmake-3.31.2-windows-x86_64/share/cmake-3.31/Modules/GoogleTestAddTests.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\Debug\gtest.lib;lib\Debug\gmock.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/CPPprojects/32.6.1_Homework/build/Debug/homework_32.6.1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/CPPprojects/32.6.1_Homework/bin/Debug/homework_32.6.1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\CPPprojects\32.6.1_Homework\include;C:\CPPprojects\32.6.1_Homework\googletest\include;C:\CPPprojects\32.6.1_Homework\googlmock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/CPPprojects/32.6.1_Homework/googletest/googletest/include" /external:I "C:/CPPprojects/32.6.1_Homework/googletest/googletest" /external:I "C:/CPPprojects/32.6.1_Homework/googletest/googlemock/include" /external:I "C:/CPPprojects/32.6.1_Homework/googletest/googlemock"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\CPPprojects\32.6.1_Homework\include;C:\CPPprojects\32.6.1_Homework\googletest\include;C:\CPPprojects\32.6.1_Homework\googlmock\include;C:\CPPprojects\32.6.1_Homework\googletest\googletest\include;C:\CPPprojects\32.6.1_Homework\googletest\googletest;C:\CPPprojects\32.6.1_Homework\googletest\googlemock\include;C:\CPPprojects\32.6.1_Homework\googletest\googlemock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\CPPprojects\32.6.1_Homework\include;C:\CPPprojects\32.6.1_Homework\googletest\include;C:\CPPprojects\32.6.1_Homework\googlmock\include;C:\CPPprojects\32.6.1_Homework\googletest\googletest\include;C:\CPPprojects\32.6.1_Homework\googletest\googletest;C:\CPPprojects\32.6.1_Homework\googletest\googlemock\include;C:\CPPprojects\32.6.1_Homework\googletest\googlemock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\all_for_cpp\cmake-3.31.2-windows-x86_64\bin\cmake.exe -D TEST_TARGET=homework_32.6.1 -D TEST_EXECUTABLE=C:/CPPprojects/32.6.1_Homework/bin/Release/homework_32.6.1.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/CPPprojects/32.6.1_Homework/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=homework_32.6.1_TESTS -D CTEST_FILE=C:/CPPprojects/32.6.1_Homework/build/homework_32.6.1[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P C:/all_for_cpp/cmake-3.31.2-windows-x86_64/share/cmake-3.31/Modules/GoogleTestAddTests.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\Release\gtest.lib;lib\Release\gmock.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/CPPprojects/32.6.1_Homework/build/Release/homework_32.6.1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/CPPprojects/32.6.1_Homework/bin/Release/homework_32.6.1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\CPPprojects\32.6.1_Homework\include;C:\CPPprojects\32.6.1_Homework\googletest\include;C:\CPPprojects\32.6.1_Homework\googlmock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/CPPprojects/32.6.1_Homework/googletest/googletest/include" /external:I "C:/CPPprojects/32.6.1_Homework/googletest/googletest" /external:I "C:/CPPprojects/32.6.1_Homework/googletest/googlemock/include" /external:I "C:/CPPprojects/32.6.1_Homework/googletest/googlemock"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\CPPprojects\32.6.1_Homework\include;C:\CPPprojects\32.6.1_Homework\googletest\include;C:\CPPprojects\32.6.1_Homework\googlmock\include;C:\CPPprojects\32.6.1_Homework\googletest\googletest\include;C:\CPPprojects\32.6.1_Homework\googletest\googletest;C:\CPPprojects\32.6.1_Homework\googletest\googlemock\include;C:\CPPprojects\32.6.1_Homework\googletest\googlemock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\CPPprojects\32.6.1_Homework\include;C:\CPPprojects\32.6.1_Homework\googletest\include;C:\CPPprojects\32.6.1_Homework\googlmock\include;C:\CPPprojects\32.6.1_Homework\googletest\googletest\include;C:\CPPprojects\32.6.1_Homework\googletest\googletest;C:\CPPprojects\32.6.1_Homework\googletest\googlemock\include;C:\CPPprojects\32.6.1_Homework\googletest\googlemock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\all_for_cpp\cmake-3.31.2-windows-x86_64\bin\cmake.exe -D TEST_TARGET=homework_32.6.1 -D TEST_EXECUTABLE=C:/CPPprojects/32.6.1_Homework/bin/MinSizeRel/homework_32.6.1.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/CPPprojects/32.6.1_Homework/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=homework_32.6.1_TESTS -D CTEST_FILE=C:/CPPprojects/32.6.1_Homework/build/homework_32.6.1[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P C:/all_for_cpp/cmake-3.31.2-windows-x86_64/share/cmake-3.31/Modules/GoogleTestAddTests.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\MinSizeRel\gtest.lib;lib\MinSizeRel\gmock.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/CPPprojects/32.6.1_Homework/build/MinSizeRel/homework_32.6.1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/CPPprojects/32.6.1_Homework/bin/MinSizeRel/homework_32.6.1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\CPPprojects\32.6.1_Homework\include;C:\CPPprojects\32.6.1_Homework\googletest\include;C:\CPPprojects\32.6.1_Homework\googlmock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/CPPprojects/32.6.1_Homework/googletest/googletest/include" /external:I "C:/CPPprojects/32.6.1_Homework/googletest/googletest" /external:I "C:/CPPprojects/32.6.1_Homework/googletest/googlemock/include" /external:I "C:/CPPprojects/32.6.1_Homework/googletest/googlemock"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\CPPprojects\32.6.1_Homework\include;C:\CPPprojects\32.6.1_Homework\googletest\include;C:\CPPprojects\32.6.1_Homework\googlmock\include;C:\CPPprojects\32.6.1_Homework\googletest\googletest\include;C:\CPPprojects\32.6.1_Homework\googletest\googletest;C:\CPPprojects\32.6.1_Homework\googletest\googlemock\include;C:\CPPprojects\32.6.1_Homework\googletest\googlemock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\CPPprojects\32.6.1_Homework\include;C:\CPPprojects\32.6.1_Homework\googletest\include;C:\CPPprojects\32.6.1_Homework\googlmock\include;C:\CPPprojects\32.6.1_Homework\googletest\googletest\include;C:\CPPprojects\32.6.1_Homework\googletest\googletest;C:\CPPprojects\32.6.1_Homework\googletest\googlemock\include;C:\CPPprojects\32.6.1_Homework\googletest\googlemock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\all_for_cpp\cmake-3.31.2-windows-x86_64\bin\cmake.exe -D TEST_TARGET=homework_32.6.1 -D TEST_EXECUTABLE=C:/CPPprojects/32.6.1_Homework/bin/RelWithDebInfo/homework_32.6.1.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/CPPprojects/32.6.1_Homework/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=homework_32.6.1_TESTS -D CTEST_FILE=C:/CPPprojects/32.6.1_Homework/build/homework_32.6.1[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P C:/all_for_cpp/cmake-3.31.2-windows-x86_64/share/cmake-3.31/Modules/GoogleTestAddTests.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\RelWithDebInfo\gtest.lib;lib\RelWithDebInfo\gmock.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/CPPprojects/32.6.1_Homework/build/RelWithDebInfo/homework_32.6.1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/CPPprojects/32.6.1_Homework/bin/RelWithDebInfo/homework_32.6.1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\CPPprojects\32.6.1_Homework\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/CPPprojects/32.6.1_Homework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\all_for_cpp\cmake-3.31.2-windows-x86_64\bin\cmake.exe -SC:/CPPprojects/32.6.1_Homework -BC:/CPPprojects/32.6.1_Homework/build --check-stamp-file C:/CPPprojects/32.6.1_Homework/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\3.31.2\CMakeCCompiler.cmake;C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\3.31.2\CMakeCXXCompiler.cmake;C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\3.31.2\CMakeRCCompiler.cmake;C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\3.31.2\CMakeSystem.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\GoogleTest.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/CPPprojects/32.6.1_Homework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\all_for_cpp\cmake-3.31.2-windows-x86_64\bin\cmake.exe -SC:/CPPprojects/32.6.1_Homework -BC:/CPPprojects/32.6.1_Homework/build --check-stamp-file C:/CPPprojects/32.6.1_Homework/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\3.31.2\CMakeCCompiler.cmake;C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\3.31.2\CMakeCXXCompiler.cmake;C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\3.31.2\CMakeRCCompiler.cmake;C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\3.31.2\CMakeSystem.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\GoogleTest.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/CPPprojects/32.6.1_Homework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\all_for_cpp\cmake-3.31.2-windows-x86_64\bin\cmake.exe -SC:/CPPprojects/32.6.1_Homework -BC:/CPPprojects/32.6.1_Homework/build --check-stamp-file C:/CPPprojects/32.6.1_Homework/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\3.31.2\CMakeCCompiler.cmake;C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\3.31.2\CMakeCXXCompiler.cmake;C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\3.31.2\CMakeRCCompiler.cmake;C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\3.31.2\CMakeSystem.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\GoogleTest.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/CPPprojects/32.6.1_Homework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\all_for_cpp\cmake-3.31.2-windows-x86_64\bin\cmake.exe -SC:/CPPprojects/32.6.1_Homework -BC:/CPPprojects/32.6.1_Homework/build --check-stamp-file C:/CPPprojects/32.6.1_Homework/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\3.31.2\CMakeCCompiler.cmake;C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\3.31.2\CMakeCXXCompiler.cmake;C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\3.31.2\CMakeRCCompiler.cmake;C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\3.31.2\CMakeSystem.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\GoogleTest.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\all_for_cpp\cmake-3.31.2-windows-x86_64\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CPPprojects\32.6.1_Homework\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\CPPprojects\32.6.1_Homework\src\ClassThatUsesDB.cpp" />
+    <ClCompile Include="C:\CPPprojects\32.6.1_Homework\src\DBconnection.cpp" />
+    <ClCompile Include="C:\CPPprojects\32.6.1_Homework\src\main.cpp" />
+    <ClInclude Include="C:\CPPprojects\32.6.1_Homework\include\ClassThatUsesDB.h" />
+    <ClInclude Include="C:\CPPprojects\32.6.1_Homework\include\DBconnection.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\CPPprojects\32.6.1_Homework\build\ZERO_CHECK.vcxproj">
+      <Project>{7FC0CCCF-4D1C-3259-AEE8-D05442A2C27E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\CPPprojects\32.6.1_Homework\build\googletest\googlemock\gmock.vcxproj">
+      <Project>{60B9EB2E-B593-3ADC-B398-FD0BFDEE28B2}</Project>
+      <Name>gmock</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CPPprojects\32.6.1_Homework\build\googletest\googletest\gtest.vcxproj">
+      <Project>{78465B58-E73A-354C-97B5-2AEC107A27E0}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

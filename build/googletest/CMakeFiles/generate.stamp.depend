@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/CPPprojects/32.6.1_Homework/googletest/CMakeLists.txt
+C:/all_for_cpp/cmake-3.31.2-windows-x86_64/share/cmake-3.31/Modules/CMakeDependentOption.cmake
+C:/all_for_cpp/cmake-3.31.2-windows-x86_64/share/cmake-3.31/Modules/GNUInstallDirs.cmake

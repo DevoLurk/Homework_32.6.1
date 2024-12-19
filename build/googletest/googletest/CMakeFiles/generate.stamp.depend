@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+C:/CPPprojects/32.6.1_Homework/googletest/googletest/CMakeLists.txt
+C:/CPPprojects/32.6.1_Homework/googletest/googletest/cmake/Config.cmake.in
+C:/CPPprojects/32.6.1_Homework/googletest/googletest/cmake/gtest.pc.in
+C:/CPPprojects/32.6.1_Homework/googletest/googletest/cmake/gtest_main.pc.in
+C:/CPPprojects/32.6.1_Homework/googletest/googletest/cmake/internal_utils.cmake
+C:/all_for_cpp/cmake-3.31.2-windows-x86_64/share/cmake-3.31/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/all_for_cpp/cmake-3.31.2-windows-x86_64/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake
+C:/all_for_cpp/cmake-3.31.2-windows-x86_64/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake
+C:/all_for_cpp/cmake-3.31.2-windows-x86_64/share/cmake-3.31/Modules/CheckIncludeFile.cmake
+C:/all_for_cpp/cmake-3.31.2-windows-x86_64/share/cmake-3.31/Modules/CheckLibraryExists.cmake
+C:/all_for_cpp/cmake-3.31.2-windows-x86_64/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+C:/all_for_cpp/cmake-3.31.2-windows-x86_64/share/cmake-3.31/Modules/FindPackageMessage.cmake
+C:/all_for_cpp/cmake-3.31.2-windows-x86_64/share/cmake-3.31/Modules/FindThreads.cmake
+C:/all_for_cpp/cmake-3.31.2-windows-x86_64/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake
+C:/all_for_cpp/cmake-3.31.2-windows-x86_64/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake

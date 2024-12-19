@@ -1,0 +1,5 @@
+if(EXISTS "C:/CPPprojects/32.6.1_Homework/build/homework_32.6.1[1]_tests.cmake")
+  include("C:/CPPprojects/32.6.1_Homework/build/homework_32.6.1[1]_tests.cmake")
+else()
+  add_test(homework_32.6.1_NOT_BUILT homework_32.6.1_NOT_BUILT)
+endif()
